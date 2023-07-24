@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-CODE-GENERATOR</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>QR Code Generator</h1>
+    <div>
+        <label for="qrText">Enter text to generate QR code:</label>
+        <input type="text" id="qrText" placeholder="Enter text"  size="40">
+        <button id="generateButton">Generate QR Code</button>
+    </div>
+    <div id="qrcode"></div>
+    <button id="downloadButton" disabled>Download QR Code</button>
+
+    <footer>
+        <p>Created by ANURAG SINGH &copy; 2023</p>
+    </footer>
+    
+    
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
